@@ -23,5 +23,5 @@ app.use(notFound)
 app.use(errorHandler)
 
 app.listen(port, () =>
-  logger.info(`Application started at http://localhost:${process.env.PORT}`),
+  logger.success(`Application started at http://localhost:${process.env.PORT}`),
 )
